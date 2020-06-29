@@ -1,0 +1,12 @@
+java -jar
+C:\Users\Administrator.USER-20190708QI\PycharmProjects\test-build\AppSignatureTools\other\SignatureTools_v2.5-9-gfdbec26.jar sign
+--keytype jks
+--apk C:\Users\Administrator.USER-20190708QI\PycharmProjects\test-build\AppSignatureTools\other\app_unsigned.apk
+--out E:\test-apk\new\app_v1_signed.apk
+--keystore C:\Users\Administrator.USER-20190708QI\PycharmProjects\test-build\AppSignatureTools\other\gylr.jks
+--alias androiddebugkey
+--storepass android
+--keypass android
+--sigAlg SHA1withRSA
+--signatureScheme v1/v2/v1v2
+--zipalign(optional)
